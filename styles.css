@@ -1,0 +1,136 @@
+/* Reset default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #f6f9fe;
+    color: #333333;
+}
+
+/* Navbar styling */
+.nav-bar {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 20px 50px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand h1 {
+    color: #4A628A;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.logo {
+    height: 40px;
+}
+
+.navbar-nav {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-link {
+    font-size: 18px;
+    color: #4A628A;
+    font-weight: 700;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #73854C;
+}
+.login-box {
+    max-width: 800px;
+    background-color: #ffffff;
+    padding: 150px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    margin: 130px auto;
+    text-align: center;
+    font-family: 'Inter', sans-serif; /* Ensure Inter font */
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #000;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif; /* Ensure Inter font */
+}
+
+.input-field {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    border: 1px solid #ccc; /* Lighter border color to match registration form */
+    border-radius: 25px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow to match registration box */
+}
+
+.icon {
+    margin-right: 10px;
+    color: #666;
+    font-size: 1.2em;
+}
+
+.input-field input {
+    border: none;
+    outline: none;
+    background: none;
+    flex: 1;
+    padding: 10px;
+    font-size: 1em;
+    text-align: center; /* Center text in the input to match registration style */
+    font-family: 'Inter', sans-serif;
+}
+
+
+.login-button {
+    width: 25%;
+    padding: 10px;
+    font-size: 1em;
+    font-weight: bold;
+    color: #fff;
+    background-color: #4A628A;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: 'Inter', sans-serif; /* Ensure Inter font */
+}
+
+.login-button:hover {
+    background-color: #3b4f68;
+}
+
+.options {
+    margin-top: 10px;
+    font-size: 0.9em;
+    font-family: 'Inter', sans-serif; /* Ensure Inter font */
+}
+
+.options a {
+    color: #4A628A;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif; /* Ensure Inter font */
+}

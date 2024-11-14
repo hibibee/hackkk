@@ -1,0 +1,109 @@
+/* Reset default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #f6f9fe;
+    color: #333333;
+}
+
+/* Navbar styling */
+.nav-bar {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 20px 50px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand h1 {
+    color: #4A628A;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.logo {
+    height: 40px;
+}
+
+.navbar-nav {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-link {
+    font-size: 18px;
+    color: #4A628A;
+    font-weight: 700;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #73854C;
+}
+
+.register-container {
+    background-color: #fff;
+    padding: 100px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 700px;
+    text-align: center;
+    margin: 150px auto; /* Adds a top margin to separate from the header */
+}
+
+.register-container h2 {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    margin-bottom: 15px;
+}
+
+.input-container input {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    outline: none;
+    text-align: center;
+    transition: border-color 0.3s ease;
+}
+
+.input-container input:focus {
+    border-color: #3a4a5b;
+}
+
+button {
+    width: 25%;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #4A628A;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2a3a4b;
+}

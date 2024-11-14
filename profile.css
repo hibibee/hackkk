@@ -1,0 +1,134 @@
+/* Reset default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #f6f9fe;
+    color: #333333;
+}
+
+/* Navbar styling */
+.nav-bar {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 20px 50px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand h1 {
+    color: #4A628A;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.logo {
+    height: 40px;
+}
+
+.navbar-nav {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-link {
+    font-size: 18px;
+    color: #4A628A;
+    font-weight: 700;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #73854C;
+}
+
+/* Profile Section Styling */
+.profile-container {
+    max-width: 600px;
+    margin: 150px auto;
+    background-color: #ffffff;
+    padding: 100px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.profile-title, .history-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4A628A;
+    margin-bottom: 20px;
+}
+
+.profile-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.label {
+    background-color: #7AB2D3;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+    white-space: nowrap;
+}
+
+.input-field {
+    flex: 1;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: #7AB2D3;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+}
+
+.stress-indicator {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #F6682B;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+/* Assessment History Styling */
+.assessment-history {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.assessment-button {
+    background-color: #7AB2D3;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    width: auto;
+}
