@@ -32,20 +32,21 @@
     <!-- Login Form Start -->
     <div class="login-box">
         <h2>ยินดีต้อนรับสู่ LOGIN</h2>
-        <form>
+        <form action="login.php" method="post">
             <div class="input-field">
                 <span class="icon">👤</span>
-                <input type="email" placeholder="E - mail" required>
+                <input type="email" name="email" placeholder="E - mail" required>
             </div>
             <div class="input-field">
                 <span class="icon">🔒</span>
-                <input type="password" placeholder="Password" required>
+                <input type="password" name="password" placeholder="Password" required>
             </div>
             <button type="submit" class="login-button">Login</button>
             <div class="options">
-                <a href="#">ลืมรหัสผ่าน</a> | <a href="#">สมัครสมาชิก</a>
+                <a href="#">ลืมรหัสผ่าน</a> | <a href="register.html">สมัครสมาชิก</a>
             </div>
         </form>
+        
     </div>
     <!-- Login Form End -->
 </body>

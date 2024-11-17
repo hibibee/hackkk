@@ -28,22 +28,23 @@
     <!-- Header End -->
     <div class="register-container">
         <h2>ยินดีต้อนรับสู่ Register</h2>
-        <form>
+        <form action="register.php" method="post">
             <div class="input-container">
-                <input type="email" placeholder="E - mail" required>
+                <input type="email" name="email" placeholder="E - mail" required>
             </div>
             <div class="input-container">
-                <input type="text" placeholder="ชื่อ" required>
+                <input type="text" name="name" placeholder="ชื่อ" required>
             </div>
             <div class="input-container">
-                <input type="password" placeholder="Password" required>
+                <input type="password" name="password" placeholder="Password" required>
             </div>
             <div class="input-container">
-                <input type="password" placeholder="Confirm-Password" required>
+                <input type="password" name="confirm_password" placeholder="Confirm-Password" required>
             </div>
             <a href="login.html"></a>
             <button type="submit">Register</button>
         </form>
+        
     </div>
 </body>
 </html>
